@@ -62,17 +62,17 @@ for (i in 1: length (my_cols())) {
            ggtitle(names(my_cols()[i])))
 }
 
-tiff(filename = "data/figures/jama_plot.tiff", width =10, height = 16, units = "cm",  pointsize = 10, bg = "white", res=300)
+tiff(filename = "data/figures/jama_plot.tiff", width =10, height = 16, units = "cm",  pointsize = 10, bg = "white", res=150)
 gridExtra::grid.arrange(p1, p2, p3, p4, p5, p6, p7,  
              ncol = 2)
 dev.off()
 
-tiff(filename = "data/figures/nejm_plot.tiff", width =10, height = 16, units = "cm",  pointsize = 10, bg = "white", res=300)
+tiff(filename = "data/figures/nejm_plot.tiff", width =10, height = 16, units = "cm",  pointsize = 10, bg = "white", res=150)
 gridExtra::grid.arrange(p8, p9, p10, p11, p12, p13,p14, p15,  
                         ncol = 2)
 dev.off()
 
-tiff(filename = "data/figures/npg_plot.tiff", width =10, height = 18, units = "cm",  pointsize = 10, bg = "white", res=300)
+tiff(filename = "data/figures/npg_plot.tiff", width =10, height = 18, units = "cm",  pointsize = 10, bg = "white", res=150)
 gridExtra::grid.arrange(p16, p17, p18, p19, p20, p21, p22, p23, p24, p25,  
                         ncol = 2)
 dev.off()
