@@ -25,3 +25,4 @@ small <- diamonds[sample(nrow(diamonds), 1000), ]
 ggplot(data = small) +
  geom_point(mapping = aes(x = carat, y = price), col=my_cols("jama_2"))
 ```
+## test
