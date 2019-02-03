@@ -10,7 +10,19 @@ A R package wrapping useful functions for daily work.
 install.packages("devtools")
 devtools::install_github("xiaojunlin/myfunc")
 ```
+
+## set_cn()
+
+> Description
+
+This function set Chinese support environment for Rstudio.
+
+> Example
+
+` set_cn()`
+
 ## my_cols()
+
 > Description 
 
 This function provides useful color sets of famous academic journals, including NEJM, JAMA, and Nature.
@@ -27,6 +39,7 @@ ggplot(data = small) +
 ```
 
 ## fill_na()
+
 > Description 
 
 This fucntion can replace NAs in data.frame or a vector with latest non-NA value. I copy the R code from [BruceZhaoR's repository](https://github.com/BruceZhaoR/R_Problems/blob/master/Handle-NA-Problems/fill_na.R). Thanks.
