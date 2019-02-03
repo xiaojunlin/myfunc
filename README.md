@@ -42,15 +42,15 @@ Here are the sample plots using various colors.
 
 - JAMA 
 
-<img src="data/figures/jama_plot.tiff" height="400"/>
+<img src="data/figures/jama_plot.tiff" height="600"/>
 
 - NEJM
 
-<img src="data/figures/nejm_plot.tiff" height="400"/>
+<img src="data/figures/nejm_plot.tiff" height="600"/>
 
 - NPG
 
-<img src="data/figures/npg_plot.tiff" height="450"/>
+<img src="data/figures/npg_plot.tiff" height="700"/>
 
 **Code:**
 
