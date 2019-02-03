@@ -1,4 +1,5 @@
 # myfunc
+<img src="data/sticker/myfuncSticker.png" height="300"/>
 
 ## Overview
 A R package wrapping useful functions for daily work.
