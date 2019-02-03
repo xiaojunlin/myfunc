@@ -1,18 +1,21 @@
 # myfunc
-Wrap useful functions for daily work
 
+## Overview
+A R package wrapping useful functions for daily work.
 
+## Installation 
+
+```
+install.packages("devtools")
+devtools::install_github("xiaojunlin/myfunc")
+
+```
 ## my_cols()
-
-### Installation 
-
-`devtools::install_github("xiaojunlin/myfunc")`
-
-### Description 
+> Description 
 
 This function provides useful color sets of famous academic journals, including NEJM, JAMA, and Nature.
 
-### Example
+> Example
 
 ```
 require(ggplot2)
