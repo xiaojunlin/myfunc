@@ -39,5 +39,6 @@ y <- c(NA, NA, 1, NA, 3)
 xy <- data.frame(x,y)
 fill_na(x)
 fill_na(y)
-fill_na(xy)
+fill_na(xy, x, y)
+fill_na(xy, c("x","y"))
 ```
