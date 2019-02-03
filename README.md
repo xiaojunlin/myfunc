@@ -9,7 +9,6 @@ A R package wrapping useful functions for daily work.
 ```
 install.packages("devtools")
 devtools::install_github("xiaojunlin/myfunc")
-
 ```
 ## my_cols()
 > Description 
@@ -25,5 +24,4 @@ set.seed(42)
 small <- diamonds[sample(nrow(diamonds), 1000), ]
 ggplot(data = small) +
  geom_point(mapping = aes(x = carat, y = price), col=my_cols("jama_2"))
-
 ```
