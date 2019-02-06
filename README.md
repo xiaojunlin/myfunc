@@ -1,13 +1,14 @@
 # myfunc
 <img src="data/sticker/myfuncSticker.png" height="200"/>
 
+
 ## Overview
 A R package wrapping useful functions for daily work.
 
 ## Installation 
 
 ```
-install.packages("devtools")
+install.packages("devtools") # install "devtools" package if you did not install it before.
 devtools::install_github("xiaojunlin/myfunc")
 ```
 
@@ -15,7 +16,7 @@ devtools::install_github("xiaojunlin/myfunc")
 
 > Description
 
-This function set Chinese support environment for Rstudio.
+This function sets Chinese support environment for Rstudio in macOS.
 
 > Example
 
@@ -31,9 +32,13 @@ This function provides useful color sets of famous academic journals, including 
 
 ```
 require(ggplot2)
+
 data(diamonds)
+
 set.seed(42)
+
 small <- diamonds[sample(nrow(diamonds), 1000), ]
+
 ggplot(data = small) +
  geom_point(mapping = aes(x = carat, y = price), col=my_cols("jama_2"))
 ```
@@ -82,7 +87,7 @@ dev.off()
 
 > Description 
 
-This fucntion can replace NAs in data.frame or a vector with latest non-NA value. I copy the R code from [BruceZhaoR's repository](https://github.com/BruceZhaoR/R_Problems/blob/master/Handle-NA-Problems/fill_na.R). Thanks.
+This fucntion can replace NAs in data.frame or a vector with latest non-NA value. The R code was copied from [BruceZhaoR's repository](https://github.com/BruceZhaoR/R_Problems/blob/master/Handle-NA-Problems/fill_na.R). Thanks.
 
 > Example
 
