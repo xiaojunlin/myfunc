@@ -8,7 +8,7 @@ A R package wrapping useful functions for daily work.
 ## Installation 
 
 ```
-install.packages("devtools") # install "devtools" package if you did not install it before.
+install.packages("devtools") 
 devtools::install_github("xiaojunlin/myfunc")
 ```
 
